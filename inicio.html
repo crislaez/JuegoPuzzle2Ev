@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Projecto Final 2</title>
+        <!-- css  -->
+        <link rel="stylesheet" href="css/estilos.css">
+
+        <!-- jquery  -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+
+        <!-- jquery ui -->
+        <link rel="stylesheet" href="js/jquery-ui/jquery-ui.min.css">
+        <link rel="stylesheet" href="js/jquery-ui/jquery-ui.theme.css">
+        <link rel="stylesheet" href="js/jquery-ui/jquery-ui.structure.min.css">
+        <script src="js/jquery-ui/jquery-ui.min.js"></script>
+
+        <!-- js  -->
+        <script src="js/datos.js"></script>
+        <script>
+           $(document).ready(function(){
+            inicio();
+           });
+        </script>
+    </head>
+    <body>
+        
+        <header>
+            <h1>JUEGO DE LA MEMORIA</h1>
+        </header>
+
+        <section>
+            <p id="parrafoUno">TIEMPO: 00:00</p>
+            <p id="parrafoDos">MOVIMIENTOS 0</p>
+
+            <div id="divSeleccion">
+                <select id="seleccion">
+                    <option value="2x3">2x3</option>
+                    <option value="3x4">3x4</option>
+                    <option value="5x4">5x4</option>
+                </select>
+                <input type="button" id="boton" value="Jugar">
+
+            </div>
+            
+           
+        </section>
+    </body>
+</html>
